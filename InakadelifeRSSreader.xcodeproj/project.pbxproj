@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291E2C71333278406830264D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE678F2BF75336C47001ABC /* libPods.a */; };
+		ACB18ADA1A580CEB0094FD2F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB18AD91A580CEB0094FD2F /* WebViewController.swift */; };
 		ACCF85B51A56A294006DC0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85B41A56A294006DC0ED /* AppDelegate.swift */; };
 		ACCF85B81A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85B61A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld */; };
-		ACCF85BA1A56A294006DC0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85B91A56A294006DC0ED /* ViewController.swift */; };
 		ACCF85BD1A56A294006DC0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85BB1A56A294006DC0ED /* Main.storyboard */; };
 		ACCF85BF1A56A294006DC0ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85BE1A56A294006DC0ED /* Images.xcassets */; };
 		ACCF85C21A56A294006DC0ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85C01A56A294006DC0ED /* LaunchScreen.xib */; };
 		ACCF85CE1A56A294006DC0ED /* InakadelifeRSSreaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85CD1A56A294006DC0ED /* InakadelifeRSSreaderTests.swift */; };
+		ACCF85D81A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85D71A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png */; };
+		ACCF85DA1A56A7F0006DC0ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85D91A56A7F0006DC0ED /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF4D647BA02A8AA706EA59E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2FE678F2BF75336C47001ABC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB18AD51A57F4E30094FD2F /* InakadelifeRSSreader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InakadelifeRSSreader-Bridging-Header.h"; sourceTree = "<group>"; };
+		ACB18AD91A580CEB0094FD2F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ACCF85AF1A56A293006DC0ED /* InakadelifeRSSreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InakadelifeRSSreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCF85B31A56A294006DC0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACCF85B41A56A294006DC0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCF85B71A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InakadelifeRSSreader.xcdatamodel; sourceTree = "<group>"; };
-		ACCF85B91A56A294006DC0ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACCF85BC1A56A294006DC0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCF85BE1A56A294006DC0ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACCF85C11A56A294006DC0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACCF85C71A56A294006DC0ED /* InakadelifeRSSreaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InakadelifeRSSreaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCF85CC1A56A294006DC0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACCF85CD1A56A294006DC0ED /* InakadelifeRSSreaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InakadelifeRSSreaderTests.swift; sourceTree = "<group>"; };
+		ACCF85D71A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田舎deらいふ　サブタイトル.png"; sourceTree = "<group>"; };
+		ACCF85D91A56A7F0006DC0ED /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C984843026048D9C1FED8F77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291E2C71333278406830264D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +68,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4674895C681D72FF3518AB33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C984843026048D9C1FED8F77 /* Pods.debug.xcconfig */,
+				0AF4D647BA02A8AA706EA59E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87E6EF90EF8E5DC520408740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE678F2BF75336C47001ABC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACCF85A61A56A293006DC0ED = {
 			isa = PBXGroup;
 			children = (
+				ACCF85D71A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png */,
 				ACCF85B11A56A293006DC0ED /* InakadelifeRSSreader */,
 				ACCF85CA1A56A294006DC0ED /* InakadelifeRSSreaderTests */,
 				ACCF85B01A56A293006DC0ED /* Products */,
+				4674895C681D72FF3518AB33 /* Pods */,
+				87E6EF90EF8E5DC520408740 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,12 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				ACCF85B41A56A294006DC0ED /* AppDelegate.swift */,
-				ACCF85B91A56A294006DC0ED /* ViewController.swift */,
+				ACCF85D91A56A7F0006DC0ED /* TableViewController.swift */,
+				ACB18AD91A580CEB0094FD2F /* WebViewController.swift */,
 				ACCF85BB1A56A294006DC0ED /* Main.storyboard */,
 				ACCF85BE1A56A294006DC0ED /* Images.xcassets */,
 				ACCF85C01A56A294006DC0ED /* LaunchScreen.xib */,
 				ACCF85B61A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld */,
 				ACCF85B21A56A293006DC0ED /* Supporting Files */,
+				ACB18AD51A57F4E30094FD2F /* InakadelifeRSSreader-Bridging-Header.h */,
 			);
 			path = InakadelifeRSSreader;
 			sourceTree = "<group>";
@@ -122,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACCF85D11A56A294006DC0ED /* Build configuration list for PBXNativeTarget "InakadelifeRSSreader" */;
 			buildPhases = (
+				3574C1D715C08BDE0B6A096F /* Check Pods Manifest.lock */,
 				ACCF85AB1A56A293006DC0ED /* Sources */,
 				ACCF85AC1A56A293006DC0ED /* Frameworks */,
 				ACCF85AD1A56A293006DC0ED /* Resources */,
+				90E8D73FEAE08EFCCBD8D605 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCF85D81A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png in Resources */,
 				ACCF85BD1A56A294006DC0ED /* Main.storyboard in Resources */,
 				ACCF85C21A56A294006DC0ED /* LaunchScreen.xib in Resources */,
 				ACCF85BF1A56A294006DC0ED /* Images.xcassets in Resources */,
@@ -210,14 +245,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3574C1D715C08BDE0B6A096F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90E8D73FEAE08EFCCBD8D605 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACCF85AB1A56A293006DC0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCF85BA1A56A294006DC0ED /* ViewController.swift in Sources */,
 				ACCF85B51A56A294006DC0ED /* AppDelegate.swift in Sources */,
+				ACCF85DA1A56A7F0006DC0ED /* TableViewController.swift in Sources */,
 				ACCF85B81A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld in Sources */,
+				ACB18ADA1A580CEB0094FD2F /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +409,28 @@
 		};
 		ACCF85D21A56A294006DC0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C984843026048D9C1FED8F77 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InakadelifeRSSreader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InakadelifeRSSreader/InakadelifeRSSreader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		ACCF85D31A56A294006DC0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF4D647BA02A8AA706EA59E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InakadelifeRSSreader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InakadelifeRSSreader/InakadelifeRSSreader-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +487,7 @@
 				ACCF85D31A56A294006DC0ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACCF85D41A56A294006DC0ED /* Build configuration list for PBXNativeTarget "InakadelifeRSSreaderTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +496,7 @@
 				ACCF85D61A56A294006DC0ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

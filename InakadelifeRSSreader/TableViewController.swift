@@ -9,31 +9,22 @@
 import UIKit
 
 class TableViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     @IBOutlet var myTableView: UITableView!
     @IBOutlet weak var textLabel: UILabel?
-
+    
     
     var cell : UITableViewCell!
     var entries = NSArray()
     let UrlString = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://feeds.feedburner.com/inakadelife/rss&num=-1"
     
-    //let UrlString = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://feeds.feedburner.com/hatena/b/hotentry&num=-1"
-    
-    //@IBOutlet weak var textLabel: UILabel!
-    //@IBOutlet weak var cell: UITableViewCell!
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.delegate = self;
         myTableView.dataSource = self;
         
         request()
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+
     }
     
     @IBAction func reloadButton(sender: AnyObject) {
@@ -51,12 +42,6 @@ class TableViewController: UITableViewController, UITableViewDelegate, UITableVi
         return entries.count
     }
     
-    //    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    //        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "news")
-    //        self.configureCell(cell, atIndexPath: indexPath)
-    //        return cell
-    //    }
-    
     //make tableView
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
@@ -71,14 +56,6 @@ class TableViewController: UITableViewController, UITableViewDelegate, UITableVi
         
         return cell!
     }
-    
-    //    func configureCell(cell: UITableViewCell, atIndexPath indexPath: NSIndexPath) {
-    //        //get entry
-    //        var entry = entries[indexPath.row] as NSDictionary
-    //
-    //        //set title
-    //        //cell.textLabel.text = entry["title"] as? String
-    //    }
     
     func request() {
         let URL = NSURL(string: UrlString)!
@@ -105,30 +82,20 @@ class TableViewController: UITableViewController, UITableViewDelegate, UITableVi
         
     }
     
+    var selectEntry = NSDictionary()
     //add segue
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // Segue
-        performSegueWithIdentifier("detail", sender: entries[indexPath.row])
-        println("didSelectRowAtIndexPath success")
+        
+        selectEntry = self.entries[indexPath.row] as NSDictionary
+        let webBrowser = TSMiniWebBrowser(url: NSURL(string: self.selectEntry["link"] as String))
+        webBrowser.showURLStringOnActionSheetTitle = true
+        webBrowser.showPageTitleOnTitleBar = true
+        webBrowser.showActionButton = true
+        webBrowser.showReloadButton = true
+        webBrowser.barStyle = .Black
+        
+        webBrowser.mode = TSMiniWebBrowserModeNavigation
+        self.navigationController?.pushViewController(webBrowser, animated: true)
     }
     
-    // send entry to DetailController
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "detail" {
-            // get DetailController
-            var webViewController = segue.destinationViewController as WebViewController
-            
-            // set entry
-            webViewController.entry = sender as NSDictionary
-        }
-    }
-
-    
-//    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-//        if (segue.identifier == "detal") {
-//            let nextViewController: NextViewController = segue.destinationViewController as NextViewController
-//            nextViewController.param = param
-//        }
-//    }
-
 }

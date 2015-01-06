@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		291E2C71333278406830264D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE678F2BF75336C47001ABC /* libPods.a */; };
-		ACB18ADA1A580CEB0094FD2F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB18AD91A580CEB0094FD2F /* WebViewController.swift */; };
 		ACCF85B51A56A294006DC0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85B41A56A294006DC0ED /* AppDelegate.swift */; };
 		ACCF85B81A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85B61A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld */; };
-		ACCF85BD1A56A294006DC0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85BB1A56A294006DC0ED /* Main.storyboard */; };
 		ACCF85BF1A56A294006DC0ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85BE1A56A294006DC0ED /* Images.xcassets */; };
 		ACCF85C21A56A294006DC0ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85C01A56A294006DC0ED /* LaunchScreen.xib */; };
 		ACCF85CE1A56A294006DC0ED /* InakadelifeRSSreaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85CD1A56A294006DC0ED /* InakadelifeRSSreaderTests.swift */; };
 		ACCF85D81A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCF85D71A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png */; };
 		ACCF85DA1A56A7F0006DC0ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF85D91A56A7F0006DC0ED /* TableViewController.swift */; };
+		ACE21C991A5BD4AB00C55D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE21C971A5BD4AB00C55D79 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,12 +32,10 @@
 		0AF4D647BA02A8AA706EA59E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2FE678F2BF75336C47001ABC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB18AD51A57F4E30094FD2F /* InakadelifeRSSreader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InakadelifeRSSreader-Bridging-Header.h"; sourceTree = "<group>"; };
-		ACB18AD91A580CEB0094FD2F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ACCF85AF1A56A293006DC0ED /* InakadelifeRSSreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InakadelifeRSSreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCF85B31A56A294006DC0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACCF85B41A56A294006DC0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCF85B71A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InakadelifeRSSreader.xcdatamodel; sourceTree = "<group>"; };
-		ACCF85BC1A56A294006DC0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCF85BE1A56A294006DC0ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACCF85C11A56A294006DC0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACCF85C71A56A294006DC0ED /* InakadelifeRSSreaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InakadelifeRSSreaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +43,7 @@
 		ACCF85CD1A56A294006DC0ED /* InakadelifeRSSreaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InakadelifeRSSreaderTests.swift; sourceTree = "<group>"; };
 		ACCF85D71A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田舎deらいふ　サブタイトル.png"; sourceTree = "<group>"; };
 		ACCF85D91A56A7F0006DC0ED /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ACE21C981A5BD4AB00C55D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C984843026048D9C1FED8F77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,10 +109,9 @@
 			children = (
 				ACCF85B41A56A294006DC0ED /* AppDelegate.swift */,
 				ACCF85D91A56A7F0006DC0ED /* TableViewController.swift */,
-				ACB18AD91A580CEB0094FD2F /* WebViewController.swift */,
-				ACCF85BB1A56A294006DC0ED /* Main.storyboard */,
 				ACCF85BE1A56A294006DC0ED /* Images.xcassets */,
 				ACCF85C01A56A294006DC0ED /* LaunchScreen.xib */,
+				ACE21C971A5BD4AB00C55D79 /* Main.storyboard */,
 				ACCF85B61A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld */,
 				ACCF85B21A56A293006DC0ED /* Supporting Files */,
 				ACB18AD51A57F4E30094FD2F /* InakadelifeRSSreader-Bridging-Header.h */,
@@ -230,9 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCF85D81A56A402006DC0ED /* 田舎deらいふ　サブタイトル.png in Resources */,
-				ACCF85BD1A56A294006DC0ED /* Main.storyboard in Resources */,
 				ACCF85C21A56A294006DC0ED /* LaunchScreen.xib in Resources */,
 				ACCF85BF1A56A294006DC0ED /* Images.xcassets in Resources */,
+				ACE21C991A5BD4AB00C55D79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +283,6 @@
 				ACCF85B51A56A294006DC0ED /* AppDelegate.swift in Sources */,
 				ACCF85DA1A56A7F0006DC0ED /* TableViewController.swift in Sources */,
 				ACCF85B81A56A294006DC0ED /* InakadelifeRSSreader.xcdatamodeld in Sources */,
-				ACB18ADA1A580CEB0094FD2F /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,20 +305,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ACCF85BB1A56A294006DC0ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACCF85BC1A56A294006DC0ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACCF85C01A56A294006DC0ED /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ACCF85C11A56A294006DC0ED /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ACE21C971A5BD4AB00C55D79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE21C981A5BD4AB00C55D79 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
